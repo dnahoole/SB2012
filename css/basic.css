@@ -1,0 +1,67 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("../images/waihee_stream.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+header {
+    float: left;
+    border-style: none;
+    background-color: transparent;
+    color: cornsilk;
+    width: 98%;
+}
+
+#title {
+    float: left;
+    font-size: 2.5em;
+    text-shadow: 5px 5px 10px dimgray;
+    font-family: 'Lobster', cursive;
+}
+
+.section_title {
+    border: 1px solid skyBlue;
+    background-color: cornsilk;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 2px;
+    padding: 2px;
+    text-align: justify;
+    height: 5%;
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20pt;
+}
+
+.section_content {
+    position: relative;
+    border: 1px solid skyBlue;
+    background-color: cornsilk;
+    box-shadow: 10px 10px 10px black;
+    height: 300px;
+    width: auto;
+    z-index: 1;
+}
+
+.column_left {
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 1.5%;
+}
+
+.column_middle {
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 3%;
+}
+
+.column_right {
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 3%;
+}

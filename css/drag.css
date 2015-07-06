@@ -1,0 +1,11 @@
+#myImg { 
+         position: fixed;
+         top: 3%;
+         left: 80%;
+         z-index: 999;
+         transition: 4s ease-in-out;
+         -o-transition: 4s ease-in-out;
+         -moz-transition: 4s ease-in-out;
+         -ms-transition: 4s ease-in-out;
+         -webkit-transition: 4s ease-in-out;
+}

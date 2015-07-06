@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Summer Bridge 2012</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/animation.css">
+    <link rel="stylesheet" type="text/css" href="css/basic.css">
+    <link rel="stylesheet" type="text/css" href="css/drag.css">
+    <link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster|Indie+Flower' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="js/drag.js"></script>
+    <script type="text/javascript" src="js/mouse.js"></script>
+    <script type="text/javascript" src="js/project3.js"></script>
+    <script type="text/javascript" src="js/basic.js"></script>>
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="slider/style.css" />
+    <script type="text/javascript" src="slider/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body>
+
+    <!-- Start of Header -->
+    <header>
+        <img id="myImg" src="images/noddy_tern.png" alt="Noddy Tern" />
+        <h1 id="title" class="moveH1">Computer Science & Engineering Technology 2012</h1>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Start of Left Column -->
+    <div class="column_left">
+
+        <!-- section #1:  Slide Show -->
+        <p id="para1" class="section_title">
+            Slideshow
+        </p>
+
+        <section  class="section_content">
+            <div id="wowslider-container1">
+                <div class="ws_images">
+                    <ul>
+                        <li>
+                            <img src="img/9.jpg" alt="9" title="9" id="wows1_1" />
+                        </li>
+                        <li>
+                            <img src="img/10.jpg" alt="10" title="10" id="wows1_2" />
+                        </li>
+                        <li>
+                            <img src="img/11.jpg" alt="11" title="11" id="wows1_3" />
+                        </li>
+                        <li>
+                            <img src="img/12.jpg" alt="12" title="12" id="wows1_4" />
+                        </li>
+                        <li>
+                            <img src="img/13.jpg" alt="13" title="13" id="wows1_5" />
+                        </li>
+                        <li>
+                            <img src="img/14.jpg" alt="14" title="14" id="wows1_6" />
+                        </li>
+                        <li>
+                            <img src="img/15.jpg" alt="15" title="15" id="wows1_7" />
+                        </li>
+                        <li>
+                            <img src="img/1.jpg" alt="1" title="1" id="wows1_8" />
+                        </li>
+                        <li>
+                            <img src="img/2.jpg" alt="2" title="2" id="wows1_9" />
+                        </li>
+                        <li>
+                            <img src="img/3.jpg" alt="3" title="3" id="wows1_10" />
+                        </li>
+                        <li>
+                            <img src="img/4.jpg" alt="4" title="4" id="wows1_11" />
+                        </li>
+                        <li>
+                            <img src="img/5.jpg" alt="5" title="5" id="wows1_12" />
+                        </li>
+                        <li>
+                            <img src="img/6.jpg" alt="6" title="6" id="wows1_13" />
+                        </li>
+                        <li>
+                            <img src="img/7.jpg" alt="7" title="7" id="wows1_14" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="ws_shadow"></div>
+            </div>
+            <script type="text/javascript" src="slider/wowslider.js"></script>
+            <script type="text/javascript" src="slider/fly.js"></script>
+            <!-- End WOWSlider.com BODY section -->
+        </section>
+        <!-- End of section #1 -->
+
+    </div>
+    <!-- End of Left Column -->
+
+    <!-- Start of Middle Column -->
+    <div class="column_middle">
+
+        <!-- section #3:  3D simulation -->
+        <p id="para3" class="section_title">
+            <label>Select a Photosynth:</label>
+            <select id="selSynth" onchange="changeSynth(value)">
+                <option value="https://photosynth.net/embed.aspx?cid=12f7dca7-2d94-4f2c-86a5-6d7ca6f61662&delayLoad=false&slideShowPlaying=true"
+                selected>Wauke</option>
+                <option value="https://photosynth.net/embed.aspx?cid=02ac56fa-5d5e-4f56-8a93-d57a297c6ea2&delayLoad=false&slideShowPlaying=true">Waihe'e Stream</option>
+                <option value="https://photosynth.net/embed.aspx?cid=87049110-bf1f-4ff5-a22e-2affe835d9e8&delayLoad=false&slideShowPlaying=true">Kapoho</option>
+                <option value="https://photosynth.net/embed.aspx?cid=ab15523a-0aaf-4de2-9885-370f57d291ad&delayLoad=false&slideShowPlaying=true">Paeloko #1</option>
+                <option value="https://photosynth.net/embed.aspx?cid=48cd97f5-cc56-405f-ace4-e6734ba25677&delayLoad=false&slideShowPlaying=true">Paeloko #2</option>
+                <option value="https://prezi.com/embed/v9i7ifyokopp/?bgcolor=ffffff&lock_to_path=0&autoplay=1&autohide_ctrls=0">Ho'ike 2012</option>
+            </select>
+        </p>
+
+        <section id="sect3" class="section_content">
+            <iframe id="mySynth" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <!-- End of section #3 -->
+
+    </div>
+    <!-- End of Middle Column -->
+    
+    <!-- Start of Right Column -->
+    <div class="column_right">
+
+        <!-- section #5:  Video Section -->
+        <p id="para5" class="section_title">
+            <label>Select a video:</label>
+            <select id="selVideo" onchange="changeVideo(value)">
+                <option value="https://www.youtube.com/embed/WQUPlZiW-Bs?rel=0" selected>Celestia</option>
+                <option value="https://www.youtube.com/embed/LHPLnJNAklg?rel=0">Kapoho</option>
+                <option value="https://www.youtube.com/embed/359_uY2F-MY?rel=0">Engr. Tech</option>
+                <option value="https://www.youtube.com/embed/6_z00e4lJ9M?rel=0">Student video #1</option>
+                <option value="https://www.youtube.com/embed/0KZC99G_PHI?rel=0">Student video #2</option>
+                <option value="https://www.youtube.com/embed/5HROoAkLOF0?rel=0">Student video #3</option>
+                <option value="https://www.youtube.com/embed/Xg5QfEYhq20?rel=0">CSET Students</option>
+                <option value="https://www.youtube.com/embed/VIrBecB746c?rel=0">Aquarium</option>
+            </select>
+        </p>
+
+        <section id="sect5"  class="section_content">
+            <iframe id="myVideo" src="" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <!-- End of section #5 -->
+
+    </div>
+    <!-- End of Right Column -->
+</body>
+
+</html>
